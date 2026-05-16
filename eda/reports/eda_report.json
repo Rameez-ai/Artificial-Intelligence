@@ -1,0 +1,465 @@
+{
+  "raw_shape": [
+    5025,
+    16
+  ],
+  "columns": [
+    "applicant_id",
+    "age",
+    "gender",
+    "education",
+    "employment_status",
+    "annual_income",
+    "monthly_expenses",
+    "existing_debts",
+    "loan_amount",
+    "loan_term",
+    "credit_score",
+    "debt_to_income_ratio",
+    "loan_to_income_ratio",
+    "approval_score",
+    "loan_approved",
+    "application_date"
+  ],
+  "missing_values": {
+    "monthly_expenses": {
+      "count": 33,
+      "percentage": 0.66
+    },
+    "existing_debts": {
+      "count": 34,
+      "percentage": 0.68
+    },
+    "credit_score": {
+      "count": 33,
+      "percentage": 0.66
+    }
+  },
+  "duplicates": 25,
+  "outliers": {
+    "age": {
+      "count": 22,
+      "lower_bound": 8.5,
+      "upper_bound": 60.5
+    },
+    "annual_income": {
+      "count": 187,
+      "lower_bound": -35983.62,
+      "upper_bound": 123635.38
+    },
+    "monthly_expenses": {
+      "count": 220,
+      "lower_bound": -1770.25,
+      "upper_bound": 5619.75
+    },
+    "existing_debts": {
+      "count": 392,
+      "lower_bound": -10100.5,
+      "upper_bound": 20325.5
+    },
+    "loan_amount": {
+      "count": 318,
+      "lower_bound": -31852.75,
+      "upper_bound": 94053.25
+    },
+    "loan_term": {
+      "count": 233,
+      "lower_bound": -90.0,
+      "upper_bound": 246.0
+    },
+    "credit_score": {
+      "count": 15,
+      "lower_bound": 379.5,
+      "upper_bound": 927.5
+    }
+  },
+  "cleaned_shape": [
+    5000,
+    16
+  ],
+  "descriptive_stats": {
+    "age": {
+      "count": 5000.0,
+      "mean": 34.94,
+      "std": 9.15,
+      "min": 21.0,
+      "25%": 28.0,
+      "50%": 35.0,
+      "75%": 41.0,
+      "max": 60.5
+    },
+    "annual_income": {
+      "count": 5000.0,
+      "mean": 46701.49,
+      "std": 29940.53,
+      "min": 5000.0,
+      "25%": 23873.5,
+      "50%": 40791.5,
+      "75%": 63778.25,
+      "max": 123635.38
+    },
+    "monthly_expenses": {
+      "count": 4967.0,
+      "mean": 2102.27,
+      "std": 1420.58,
+      "min": 125.0,
+      "25%": 1001.0,
+      "50%": 1772.0,
+      "75%": 2848.5,
+      "max": 5619.75
+    },
+    "existing_debts": {
+      "count": 4966.0,
+      "mean": 6102.25,
+      "std": 6189.32,
+      "min": 0.0,
+      "25%": 1309.25,
+      "50%": 3704.5,
+      "75%": 8915.75,
+      "max": 20325.5
+    },
+    "loan_amount": {
+      "count": 5000.0,
+      "mean": 34453.04,
+      "std": 25082.68,
+      "min": 5000.0,
+      "25%": 15362.0,
+      "50%": 26358.5,
+      "75%": 46838.5,
+      "max": 94053.25
+    },
+    "loan_term": {
+      "count": 5000.0,
+      "mean": 97.77,
+      "std": 72.43,
+      "min": 12.0,
+      "25%": 36.0,
+      "50%": 60.0,
+      "75%": 120.0,
+      "max": 246.0
+    },
+    "credit_score": {
+      "count": 4967.0,
+      "mean": 651.92,
+      "std": 98.49,
+      "min": 379.5,
+      "25%": 585.0,
+      "50%": 653.0,
+      "75%": 722.0,
+      "max": 850.0
+    },
+    "debt_to_income_ratio": {
+      "count": 5000.0,
+      "mean": 0.47,
+      "std": 0.72,
+      "min": 0.01,
+      "25%": 0.15,
+      "50%": 0.28,
+      "75%": 0.52,
+      "max": 14.58
+    },
+    "loan_to_income_ratio": {
+      "count": 5000.0,
+      "mean": 1.4,
+      "std": 2.46,
+      "min": 0.02,
+      "25%": 0.34,
+      "50%": 0.7,
+      "75%": 1.49,
+      "max": 45.42
+    },
+    "approval_score": {
+      "count": 5000.0,
+      "mean": 55.95,
+      "std": 20.46,
+      "min": -5.19,
+      "25%": 42.43,
+      "50%": 57.0,
+      "75%": 70.92,
+      "max": 113.33
+    },
+    "loan_approved": {
+      "count": 5000.0,
+      "mean": 0.63,
+      "std": 0.48,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    }
+  },
+  "additional_stats": {
+    "age": {
+      "mean": 34.94,
+      "median": 35.0,
+      "mode": 21.0,
+      "std": 9.15,
+      "skewness": 0.3146,
+      "kurtosis": -0.5038
+    },
+    "annual_income": {
+      "mean": 46701.49,
+      "median": 40791.5,
+      "mode": 123635.375,
+      "std": 29940.53,
+      "skewness": 0.8774,
+      "kurtosis": 0.1786
+    },
+    "monthly_expenses": {
+      "mean": 2102.27,
+      "median": 1772.0,
+      "mode": 5619.75,
+      "std": 1420.58,
+      "skewness": 0.9134,
+      "kurtosis": 0.1148
+    },
+    "existing_debts": {
+      "mean": 6102.25,
+      "median": 3704.5,
+      "mode": 20325.5,
+      "std": 6189.32,
+      "skewness": 1.1653,
+      "kurtosis": 0.173
+    },
+    "loan_amount": {
+      "mean": 34453.04,
+      "median": 26358.5,
+      "mode": 94053.25,
+      "std": 25082.68,
+      "skewness": 1.0688,
+      "kurtosis": 0.1797
+    },
+    "loan_term": {
+      "mean": 97.77,
+      "median": 60.0,
+      "mode": 120.0,
+      "std": 72.43,
+      "skewness": 0.8748,
+      "kurtosis": -0.4897
+    },
+    "credit_score": {
+      "mean": 651.92,
+      "median": 653.0,
+      "mode": 850.0,
+      "std": 98.49,
+      "skewness": -0.1059,
+      "kurtosis": -0.3633
+    },
+    "debt_to_income_ratio": {
+      "mean": 0.47,
+      "median": 0.28,
+      "mode": 0.2569,
+      "std": 0.72,
+      "skewness": 6.9508,
+      "kurtosis": 78.8075
+    },
+    "loan_to_income_ratio": {
+      "mean": 1.4,
+      "median": 0.7,
+      "mode": 0.2599,
+      "std": 2.46,
+      "skewness": 7.3259,
+      "kurtosis": 86.4434
+    },
+    "approval_score": {
+      "mean": 55.95,
+      "median": 57.0,
+      "mode": 31.7,
+      "std": 20.46,
+      "skewness": -0.2382,
+      "kurtosis": -0.4007
+    },
+    "loan_approved": {
+      "mean": 0.63,
+      "median": 1.0,
+      "mode": 1.0,
+      "std": 0.48,
+      "skewness": -0.5378,
+      "kurtosis": -1.7115
+    }
+  },
+  "correlation": {
+    "age": {
+      "age": 1.0,
+      "annual_income": 0.025,
+      "monthly_expenses": 0.025,
+      "existing_debts": 0.013,
+      "loan_amount": 0.016,
+      "loan_term": 0.014,
+      "credit_score": 0.01,
+      "debt_to_income_ratio": -0.022,
+      "loan_to_income_ratio": -0.019,
+      "approval_score": 0.012,
+      "loan_approved": 0.001
+    },
+    "annual_income": {
+      "age": 0.025,
+      "annual_income": 1.0,
+      "monthly_expenses": 0.912,
+      "existing_debts": 0.522,
+      "loan_amount": -0.001,
+      "loan_term": 0.016,
+      "credit_score": 0.008,
+      "debt_to_income_ratio": -0.291,
+      "loan_to_income_ratio": -0.383,
+      "approval_score": 0.564,
+      "loan_approved": 0.482
+    },
+    "monthly_expenses": {
+      "age": 0.025,
+      "annual_income": 0.912,
+      "monthly_expenses": 1.0,
+      "existing_debts": 0.474,
+      "loan_amount": -0.009,
+      "loan_term": 0.009,
+      "credit_score": 0.004,
+      "debt_to_income_ratio": -0.274,
+      "loan_to_income_ratio": -0.361,
+      "approval_score": 0.522,
+      "loan_approved": 0.447
+    },
+    "existing_debts": {
+      "age": 0.013,
+      "annual_income": 0.522,
+      "monthly_expenses": 0.474,
+      "existing_debts": 1.0,
+      "loan_amount": 0.031,
+      "loan_term": 0.012,
+      "credit_score": 0.007,
+      "debt_to_income_ratio": -0.012,
+      "loan_to_income_ratio": -0.213,
+      "approval_score": 0.124,
+      "loan_approved": 0.111
+    },
+    "loan_amount": {
+      "age": 0.016,
+      "annual_income": -0.001,
+      "monthly_expenses": -0.009,
+      "existing_debts": 0.031,
+      "loan_amount": 1.0,
+      "loan_term": -0.006,
+      "credit_score": 0.011,
+      "debt_to_income_ratio": 0.38,
+      "loan_to_income_ratio": 0.497,
+      "approval_score": -0.203,
+      "loan_approved": -0.189
+    },
+    "loan_term": {
+      "age": 0.014,
+      "annual_income": 0.016,
+      "monthly_expenses": 0.009,
+      "existing_debts": 0.012,
+      "loan_amount": -0.006,
+      "loan_term": 1.0,
+      "credit_score": 0.005,
+      "debt_to_income_ratio": -0.283,
+      "loan_to_income_ratio": 0.002,
+      "approval_score": 0.207,
+      "loan_approved": 0.192
+    },
+    "credit_score": {
+      "age": 0.01,
+      "annual_income": 0.008,
+      "monthly_expenses": 0.004,
+      "existing_debts": 0.007,
+      "loan_amount": 0.011,
+      "loan_term": 0.005,
+      "credit_score": 1.0,
+      "debt_to_income_ratio": 0.001,
+      "loan_to_income_ratio": -0.016,
+      "approval_score": 0.541,
+      "loan_approved": 0.368
+    },
+    "debt_to_income_ratio": {
+      "age": -0.022,
+      "annual_income": -0.291,
+      "monthly_expenses": -0.274,
+      "existing_debts": -0.012,
+      "loan_amount": 0.38,
+      "loan_term": -0.283,
+      "credit_score": 0.001,
+      "debt_to_income_ratio": 1.0,
+      "loan_to_income_ratio": 0.685,
+      "approval_score": -0.443,
+      "loan_approved": -0.393
+    },
+    "loan_to_income_ratio": {
+      "age": -0.019,
+      "annual_income": -0.383,
+      "monthly_expenses": -0.361,
+      "existing_debts": -0.213,
+      "loan_amount": 0.497,
+      "loan_term": 0.002,
+      "credit_score": -0.016,
+      "debt_to_income_ratio": 0.685,
+      "loan_to_income_ratio": 1.0,
+      "approval_score": -0.422,
+      "loan_approved": -0.362
+    },
+    "approval_score": {
+      "age": 0.012,
+      "annual_income": 0.564,
+      "monthly_expenses": 0.522,
+      "existing_debts": 0.124,
+      "loan_amount": -0.203,
+      "loan_term": 0.207,
+      "credit_score": 0.541,
+      "debt_to_income_ratio": -0.443,
+      "loan_to_income_ratio": -0.422,
+      "approval_score": 1.0,
+      "loan_approved": 0.806
+    },
+    "loan_approved": {
+      "age": 0.001,
+      "annual_income": 0.482,
+      "monthly_expenses": 0.447,
+      "existing_debts": 0.111,
+      "loan_amount": -0.189,
+      "loan_term": 0.192,
+      "credit_score": 0.368,
+      "debt_to_income_ratio": -0.393,
+      "loan_to_income_ratio": -0.362,
+      "approval_score": 0.806,
+      "loan_approved": 1.0
+    }
+  },
+  "target_correlations": {
+    "approval_score": 0.806,
+    "annual_income": 0.482,
+    "monthly_expenses": 0.447,
+    "credit_score": 0.368,
+    "loan_term": 0.192,
+    "existing_debts": 0.111,
+    "age": 0.001,
+    "loan_amount": -0.189,
+    "loan_to_income_ratio": -0.362,
+    "debt_to_income_ratio": -0.393
+  },
+  "feature_importance": {
+    "debt_to_income_ratio": 0.2431321023934146,
+    "credit_score": 0.20355031746465052,
+    "annual_income": 0.14574276731024918,
+    "loan_to_income_ratio": 0.10988399821275525,
+    "monthly_expenses": 0.09578777367784654,
+    "existing_debts": 0.04232636672008254,
+    "loan_amount": 0.03967329942616661,
+    "employment_status": 0.039016959576377734,
+    "loan_term": 0.034452659380133935,
+    "age": 0.025106279096546204,
+    "education": 0.014852516156370977,
+    "gender": 0.006474960585405965
+  },
+  "insights": {
+    "top_3_features": [
+      "debt_to_income_ratio",
+      "credit_score",
+      "annual_income"
+    ],
+    "approval_rate": 62.98,
+    "avg_income_approved": 57755.58,
+    "avg_income_rejected": 27895.79,
+    "avg_credit_approved": 679.69,
+    "avg_credit_rejected": 604.58
+  }
+}

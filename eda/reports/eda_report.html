@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Loan AI - EDA Report</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #0f0f23; color: #e0e0e0; padding: 2rem; }
+        .header { text-align: center; padding: 2rem; background: linear-gradient(135deg, #1a1a3e, #2d2d5e); border-radius: 16px; margin-bottom: 2rem; }
+        .header h1 { color: #00d4ff; font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .header p { color: #aaa; font-size: 1.1rem; }
+        .section { background: #1a1a2e; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; border: 1px solid #2a2a4a; }
+        .section h2 { color: #00d4ff; margin-bottom: 1rem; font-size: 1.5rem; border-bottom: 2px solid #2a2a4a; padding-bottom: 0.5rem; }
+        .section h3 { color: #88ccff; margin: 1rem 0 0.5rem; }
+        table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+        th, td { padding: 0.6rem 1rem; text-align: left; border-bottom: 1px solid #2a2a4a; }
+        th { background: #2a2a4a; color: #00d4ff; }
+        tr:hover { background: #252545; }
+        .metric { display: inline-block; background: #2a2a4a; padding: 1rem 1.5rem; border-radius: 8px; margin: 0.5rem; text-align: center; min-width: 150px; }
+        .metric .value { font-size: 1.8rem; font-weight: bold; color: #00d4ff; }
+        .metric .label { font-size: 0.85rem; color: #aaa; margin-top: 0.3rem; }
+        .viz img { width: 100%; max-width: 900px; border-radius: 8px; margin: 1rem 0; display: block; margin-left: auto; margin-right: auto; }
+        .insight { background: #1e3a2e; border-left: 4px solid #2ecc71; padding: 1rem; margin: 0.5rem 0; border-radius: 0 8px 8px 0; }
+        .warning { background: #3a2e1e; border-left: 4px solid #e67e22; padding: 1rem; margin: 0.5rem 0; border-radius: 0 8px 8px 0; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 Smart Loan AI — EDA Report</h1>
+        <p>Generated on 2026-05-09 17:02:38</p>
+    </div>
+
+    <div class="section">
+        <h2>📋 Dataset Overview</h2>
+        <div class="metric"><div class="value">5025</div><div class="label">Total Rows (Raw)</div></div>
+        <div class="metric"><div class="value">16</div><div class="label">Total Columns</div></div>
+        <div class="metric"><div class="value">5000</div><div class="label">Rows (Cleaned)</div></div>
+        <div class="metric"><div class="value">25</div><div class="label">Duplicates Removed</div></div>
+        <div class="metric"><div class="value">62.98%</div><div class="label">Approval Rate</div></div>
+    </div>
+
+    <div class="section">
+        <h2>🧹 Data Cleaning Summary</h2>
+        <h3>Missing Values</h3>
+        <table>
+            <tr><th>Column</th><th>Count</th><th>Percentage</th></tr>
+            <tr><td>monthly_expenses</td><td>33</td><td>0.66%</td></tr><tr><td>existing_debts</td><td>34</td><td>0.68%</td></tr><tr><td>credit_score</td><td>33</td><td>0.66%</td></tr>
+        </table>
+
+        <h3>Outliers (IQR Method)</h3>
+        <table>
+            <tr><th>Column</th><th>Outlier Count</th><th>Lower Bound</th><th>Upper Bound</th></tr>
+            <tr><td>age</td><td>22</td><td>8.5</td><td>60.5</td></tr><tr><td>annual_income</td><td>187</td><td>-35983.62</td><td>123635.38</td></tr><tr><td>monthly_expenses</td><td>220</td><td>-1770.25</td><td>5619.75</td></tr><tr><td>existing_debts</td><td>392</td><td>-10100.5</td><td>20325.5</td></tr><tr><td>loan_amount</td><td>318</td><td>-31852.75</td><td>94053.25</td></tr><tr><td>loan_term</td><td>233</td><td>-90.0</td><td>246.0</td></tr><tr><td>credit_score</td><td>15</td><td>379.5</td><td>927.5</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>📈 Statistical Summary</h2>
+        <table>
+            <tr><th>Feature</th><th>Mean</th><th>Median</th><th>Mode</th><th>Std Dev</th><th>Skewness</th></tr>
+            <tr><td>age</td><td>34.94</td><td>35.0</td><td>21.0</td><td>9.15</td><td>0.3146</td></tr><tr><td>annual_income</td><td>46701.49</td><td>40791.5</td><td>123635.375</td><td>29940.53</td><td>0.8774</td></tr><tr><td>monthly_expenses</td><td>2102.27</td><td>1772.0</td><td>5619.75</td><td>1420.58</td><td>0.9134</td></tr><tr><td>existing_debts</td><td>6102.25</td><td>3704.5</td><td>20325.5</td><td>6189.32</td><td>1.1653</td></tr><tr><td>loan_amount</td><td>34453.04</td><td>26358.5</td><td>94053.25</td><td>25082.68</td><td>1.0688</td></tr><tr><td>loan_term</td><td>97.77</td><td>60.0</td><td>120.0</td><td>72.43</td><td>0.8748</td></tr><tr><td>credit_score</td><td>651.92</td><td>653.0</td><td>850.0</td><td>98.49</td><td>-0.1059</td></tr><tr><td>debt_to_income_ratio</td><td>0.47</td><td>0.28</td><td>0.2569</td><td>0.72</td><td>6.9508</td></tr><tr><td>loan_to_income_ratio</td><td>1.4</td><td>0.7</td><td>0.2599</td><td>2.46</td><td>7.3259</td></tr><tr><td>approval_score</td><td>55.95</td><td>57.0</td><td>31.7</td><td>20.46</td><td>-0.2382</td></tr><tr><td>loan_approved</td><td>0.63</td><td>1.0</td><td>1.0</td><td>0.48</td><td>-0.5378</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>🎯 Key Insights</h2>
+        <div class="insight">
+            <strong>Top 3 Most Important Features:</strong> debt_to_income_ratio, credit_score, annual_income
+        </div>
+        <div class="insight">
+            <strong>Income Impact:</strong> Average income for approved applicants ($57,756) is significantly higher than rejected ($27,896)
+        </div>
+        <div class="insight">
+            <strong>Credit Score Impact:</strong> Average credit score for approved (680) vs rejected (605)
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🔗 Correlation with Loan Approval</h2>
+        <table>
+            <tr><th>Feature</th><th>Correlation</th><th>Strength</th></tr>
+            <tr><td>approval_score</td><td>0.806</td><td>Strong</td></tr><tr><td>annual_income</td><td>0.482</td><td>Moderate</td></tr><tr><td>monthly_expenses</td><td>0.447</td><td>Moderate</td></tr><tr><td>credit_score</td><td>0.368</td><td>Moderate</td></tr><tr><td>loan_term</td><td>0.192</td><td>Weak</td></tr><tr><td>existing_debts</td><td>0.111</td><td>Weak</td></tr><tr><td>age</td><td>0.001</td><td>Weak</td></tr><tr><td>loan_amount</td><td>-0.189</td><td>Weak</td></tr><tr><td>loan_to_income_ratio</td><td>-0.362</td><td>Moderate</td></tr><tr><td>debt_to_income_ratio</td><td>-0.393</td><td>Moderate</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>📊 Visualizations</h2>
+        <div class="viz"><h3>01 Approval Distribution Pie</h3><img src="visualizations/01_approval_distribution_pie.png" alt="01_approval_distribution_pie.png"></div><div class="viz"><h3>02 Histograms</h3><img src="visualizations/02_histograms.png" alt="02_histograms.png"></div><div class="viz"><h3>03 Boxplots</h3><img src="visualizations/03_boxplots.png" alt="03_boxplots.png"></div><div class="viz"><h3>04 Correlation Heatmap</h3><img src="visualizations/04_correlation_heatmap.png" alt="04_correlation_heatmap.png"></div><div class="viz"><h3>05 Approval By Category</h3><img src="visualizations/05_approval_by_category.png" alt="05_approval_by_category.png"></div><div class="viz"><h3>06 Scatter Plots</h3><img src="visualizations/06_scatter_plots.png" alt="06_scatter_plots.png"></div><div class="viz"><h3>07 Income By Approval</h3><img src="visualizations/07_income_by_approval.png" alt="07_income_by_approval.png"></div><div class="viz"><h3>08 Credit Score Impact</h3><img src="visualizations/08_credit_score_impact.png" alt="08_credit_score_impact.png"></div><div class="viz"><h3>09 Dti Trends</h3><img src="visualizations/09_dti_trends.png" alt="09_dti_trends.png"></div><div class="viz"><h3>10 Feature Importance</h3><img src="visualizations/10_feature_importance.png" alt="10_feature_importance.png"></div>
+    </div>
+
+    <div class="section">
+        <h2>🏆 Feature Importance</h2>
+        <table>
+            <tr><th>Feature</th><th>Importance Score</th></tr>
+            <tr><td>debt_to_income_ratio</td><td>0.2431</td></tr><tr><td>credit_score</td><td>0.2036</td></tr><tr><td>annual_income</td><td>0.1457</td></tr><tr><td>loan_to_income_ratio</td><td>0.1099</td></tr><tr><td>monthly_expenses</td><td>0.0958</td></tr><tr><td>existing_debts</td><td>0.0423</td></tr><tr><td>loan_amount</td><td>0.0397</td></tr><tr><td>employment_status</td><td>0.0390</td></tr><tr><td>loan_term</td><td>0.0345</td></tr><tr><td>age</td><td>0.0251</td></tr><tr><td>education</td><td>0.0149</td></tr><tr><td>gender</td><td>0.0065</td></tr>
+        </table>
+    </div>
+</body>
+</html>

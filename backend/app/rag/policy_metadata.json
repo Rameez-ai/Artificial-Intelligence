@@ -1,0 +1,402 @@
+[
+  {
+    "bank_name": "HBL",
+    "policy_type": "overview",
+    "text": "Habib Bank Limited (HBL) offers personal, home, car, business loans. Minimum monthly income required: PKR 30,000. Minimum credit score: 650. Maximum loan amount: PKR 5,000,000. Interest rate range: 12% - 18%. Maximum tenure: 60 months. Processing fee: 1% of loan amount."
+  },
+  {
+    "bank_name": "HBL",
+    "policy_type": "eligibility",
+    "text": "HBL eligibility criteria: Accepted employment types: Salaried, Self-Employed. Minimum employment duration: 12 months. Maximum debt-to-income ratio allowed: 45%. Guarantor: Not required. Insurance: Required. Credit score threshold: 650. Income threshold: PKR 30,000/month."
+  },
+  {
+    "bank_name": "HBL",
+    "policy_type": "documentation",
+    "text": "HBL required documents for loan application: CNIC, salary slip, bank statement 6 months, employment letter. Special conditions: Salaried employees only for personal loans. Home loans require property documents.."
+  },
+  {
+    "bank_name": "HBL",
+    "policy_type": "products",
+    "text": "HBL loan products: personal, home, car, business. Interest rates: 12% - 18%. Loan amounts from PKR 10,000 up to PKR 5,000,000. Repayment tenure up to 60 months. Special conditions: Salaried employees only for personal loans. Home loans require property documents.."
+  },
+  {
+    "bank_name": "MCB",
+    "policy_type": "overview",
+    "text": "MCB Bank Limited (MCB) offers personal, home, car loans. Minimum monthly income required: PKR 25,000. Minimum credit score: 620. Maximum loan amount: PKR 3,000,000. Interest rate range: 13% - 19%. Maximum tenure: 48 months. Processing fee: 1.5% of loan amount."
+  },
+  {
+    "bank_name": "MCB",
+    "policy_type": "eligibility",
+    "text": "MCB eligibility criteria: Accepted employment types: Salaried. Minimum employment duration: 6 months. Maximum debt-to-income ratio allowed: 40%. Guarantor: Not required. Insurance: Required. Credit score threshold: 620. Income threshold: PKR 25,000/month."
+  },
+  {
+    "bank_name": "MCB",
+    "policy_type": "documentation",
+    "text": "MCB required documents for loan application: CNIC, salary slip, bank statement 3 months, utility bill. Special conditions: Personal loans up to PKR 1.5M for salaried. Car loans require vehicle quotation.."
+  },
+  {
+    "bank_name": "MCB",
+    "policy_type": "products",
+    "text": "MCB loan products: personal, home, car. Interest rates: 13% - 19%. Loan amounts from PKR 10,000 up to PKR 3,000,000. Repayment tenure up to 48 months. Special conditions: Personal loans up to PKR 1.5M for salaried. Car loans require vehicle quotation.."
+  },
+  {
+    "bank_name": "UBL",
+    "policy_type": "overview",
+    "text": "United Bank Limited (UBL) offers personal, home, car, agriculture loans. Minimum monthly income required: PKR 35,000. Minimum credit score: 660. Maximum loan amount: PKR 6,000,000. Interest rate range: 11.5% - 17%. Maximum tenure: 84 months. Processing fee: 0.75% of loan amount."
+  },
+  {
+    "bank_name": "UBL",
+    "policy_type": "eligibility",
+    "text": "UBL eligibility criteria: Accepted employment types: Salaried, Self-Employed, Business Owner. Minimum employment duration: 12 months. Maximum debt-to-income ratio allowed: 50%. Guarantor: Not required. Insurance: Required. Credit score threshold: 660. Income threshold: PKR 35,000/month."
+  },
+  {
+    "bank_name": "UBL",
+    "policy_type": "documentation",
+    "text": "UBL required documents for loan application: CNIC, salary slip, bank statement 6 months, employment letter, tax certificate. Special conditions: Home loans available up to 70% of property value. Agriculture loans require land ownership documents.."
+  },
+  {
+    "bank_name": "UBL",
+    "policy_type": "products",
+    "text": "UBL loan products: personal, home, car, agriculture. Interest rates: 11.5% - 17%. Loan amounts from PKR 10,000 up to PKR 6,000,000. Repayment tenure up to 84 months. Special conditions: Home loans available up to 70% of property value. Agriculture loans require land ownership documents.."
+  },
+  {
+    "bank_name": "Allied Bank",
+    "policy_type": "overview",
+    "text": "Allied Bank Limited (Allied Bank) offers personal, car, home loans. Minimum monthly income required: PKR 20,000. Minimum credit score: 600. Maximum loan amount: PKR 2,000,000. Interest rate range: 14% - 20%. Maximum tenure: 36 months. Processing fee: 2% of loan amount."
+  },
+  {
+    "bank_name": "Allied Bank",
+    "policy_type": "eligibility",
+    "text": "Allied Bank eligibility criteria: Accepted employment types: Salaried. Minimum employment duration: 6 months. Maximum debt-to-income ratio allowed: 35%. Guarantor: Required. Insurance: Not required. Credit score threshold: 600. Income threshold: PKR 20,000/month."
+  },
+  {
+    "bank_name": "Allied Bank",
+    "policy_type": "documentation",
+    "text": "Allied Bank required documents for loan application: CNIC, salary slip, bank statement 3 months. Special conditions: Lower income bracket accepted. Higher interest rates apply for lower credit scores.."
+  },
+  {
+    "bank_name": "Allied Bank",
+    "policy_type": "products",
+    "text": "Allied Bank loan products: personal, car, home. Interest rates: 14% - 20%. Loan amounts from PKR 10,000 up to PKR 2,000,000. Repayment tenure up to 36 months. Special conditions: Lower income bracket accepted. Higher interest rates apply for lower credit scores.."
+  },
+  {
+    "bank_name": "Meezan Bank",
+    "policy_type": "overview",
+    "text": "Meezan Bank Limited (Meezan Bank) offers home, car, business loans. Minimum monthly income required: PKR 40,000. Minimum credit score: 670. Maximum loan amount: PKR 8,000,000. Interest rate range: 10% - 15% (Islamic profit rate). Maximum tenure: 120 months. Processing fee: 1% of financing amount."
+  },
+  {
+    "bank_name": "Meezan Bank",
+    "policy_type": "eligibility",
+    "text": "Meezan Bank eligibility criteria: Accepted employment types: Salaried, Self-Employed, Business Owner. Minimum employment duration: 24 months. Maximum debt-to-income ratio allowed: 50%. Guarantor: Not required. Insurance: Required. Credit score threshold: 670. Income threshold: PKR 40,000/month."
+  },
+  {
+    "bank_name": "Meezan Bank",
+    "policy_type": "documentation",
+    "text": "Meezan Bank required documents for loan application: CNIC, salary slip, bank statement 6 months, employment letter, NTN. Special conditions: Islamic banking \u00e2\u20ac\u201d Murabaha and Diminishing Musharakah products. No conventional interest. Zakat deductible.."
+  },
+  {
+    "bank_name": "Meezan Bank",
+    "policy_type": "products",
+    "text": "Meezan Bank loan products: home, car, business. Interest rates: 10% - 15% (Islamic profit rate). Loan amounts from PKR 10,000 up to PKR 8,000,000. Repayment tenure up to 120 months. Special conditions: Islamic banking \u00e2\u20ac\u201d Murabaha and Diminishing Musharakah products. No conventional interest. Zakat deductible.."
+  },
+  {
+    "bank_name": "Bank Alfalah",
+    "policy_type": "overview",
+    "text": "Bank Alfalah Limited (Bank Alfalah) offers personal, home, car, business loans. Minimum monthly income required: PKR 30,000. Minimum credit score: 640. Maximum loan amount: PKR 4,000,000. Interest rate range: 12.5% - 18.5%. Maximum tenure: 60 months. Processing fee: 1.25% of loan amount."
+  },
+  {
+    "bank_name": "Bank Alfalah",
+    "policy_type": "eligibility",
+    "text": "Bank Alfalah eligibility criteria: Accepted employment types: Salaried, Self-Employed. Minimum employment duration: 12 months. Maximum debt-to-income ratio allowed: 45%. Guarantor: Not required. Insurance: Required. Credit score threshold: 640. Income threshold: PKR 30,000/month."
+  },
+  {
+    "bank_name": "Bank Alfalah",
+    "policy_type": "documentation",
+    "text": "Bank Alfalah required documents for loan application: CNIC, salary slip, bank statement 6 months, utility bill. Special conditions: Alfalah Personal Loan available for government employees at preferential rates. Car loans cover new and used vehicles.."
+  },
+  {
+    "bank_name": "Bank Alfalah",
+    "policy_type": "products",
+    "text": "Bank Alfalah loan products: personal, home, car, business. Interest rates: 12.5% - 18.5%. Loan amounts from PKR 10,000 up to PKR 4,000,000. Repayment tenure up to 60 months. Special conditions: Alfalah Personal Loan available for government employees at preferential rates. Car loans cover new and used vehicles.."
+  },
+  {
+    "bank_name": "Standard Chartered",
+    "policy_type": "overview",
+    "text": "Standard Chartered Bank Pakistan (Standard Chartered) offers personal, home, car loans. Minimum monthly income required: PKR 50,000. Minimum credit score: 700. Maximum loan amount: PKR 5,000,000. Interest rate range: 11% - 16%. Maximum tenure: 60 months. Processing fee: 1.5% of loan amount."
+  },
+  {
+    "bank_name": "Standard Chartered",
+    "policy_type": "eligibility",
+    "text": "Standard Chartered eligibility criteria: Accepted employment types: Salaried. Minimum employment duration: 24 months. Maximum debt-to-income ratio allowed: 40%. Guarantor: Not required. Insurance: Required. Credit score threshold: 700. Income threshold: PKR 50,000/month."
+  },
+  {
+    "bank_name": "Standard Chartered",
+    "policy_type": "documentation",
+    "text": "Standard Chartered required documents for loan application: CNIC, salary slip, bank statement 6 months, employment letter, tax return. Special conditions: Priority banking clients get preferential rates. Minimum salary PKR 50K for personal loans. International credit history considered.."
+  },
+  {
+    "bank_name": "Standard Chartered",
+    "policy_type": "products",
+    "text": "Standard Chartered loan products: personal, home, car. Interest rates: 11% - 16%. Loan amounts from PKR 10,000 up to PKR 5,000,000. Repayment tenure up to 60 months. Special conditions: Priority banking clients get preferential rates. Minimum salary PKR 50K for personal loans. International credit history considered.."
+  },
+  {
+    "bank_name": "Faysal Bank",
+    "policy_type": "overview",
+    "text": "Faysal Bank Limited (Faysal Bank) offers home, car, personal, business loans. Minimum monthly income required: PKR 35,000. Minimum credit score: 650. Maximum loan amount: PKR 5,000,000. Interest rate range: 10.5% - 16% (Islamic). Maximum tenure: 120 months. Processing fee: 0.8% of financing amount."
+  },
+  {
+    "bank_name": "Faysal Bank",
+    "policy_type": "eligibility",
+    "text": "Faysal Bank eligibility criteria: Accepted employment types: Salaried, Self-Employed, Business Owner. Minimum employment duration: 12 months. Maximum debt-to-income ratio allowed: 48%. Guarantor: Not required. Insurance: Required. Credit score threshold: 650. Income threshold: PKR 35,000/month."
+  },
+  {
+    "bank_name": "Faysal Bank",
+    "policy_type": "documentation",
+    "text": "Faysal Bank required documents for loan application: CNIC, salary slip, bank statement 6 months, employment letter. Special conditions: Full Islamic banking conversion. Riba-free products. Tijara business financing available for SMEs.."
+  },
+  {
+    "bank_name": "Faysal Bank",
+    "policy_type": "products",
+    "text": "Faysal Bank loan products: home, car, personal, business. Interest rates: 10.5% - 16% (Islamic). Loan amounts from PKR 10,000 up to PKR 5,000,000. Repayment tenure up to 120 months. Special conditions: Full Islamic banking conversion. Riba-free products. Tijara business financing available for SMEs.."
+  },
+  {
+    "bank_name": "JS Bank",
+    "policy_type": "overview",
+    "text": "JS Bank Limited (JS Bank) offers personal, car, home loans. Minimum monthly income required: PKR 25,000. Minimum credit score: 610. Maximum loan amount: PKR 2,500,000. Interest rate range: 13.5% - 19.5%. Maximum tenure: 48 months. Processing fee: 1.75% of loan amount."
+  },
+  {
+    "bank_name": "JS Bank",
+    "policy_type": "eligibility",
+    "text": "JS Bank eligibility criteria: Accepted employment types: Salaried. Minimum employment duration: 6 months. Maximum debt-to-income ratio allowed: 38%. Guarantor: Not required. Insurance: Not required. Credit score threshold: 610. Income threshold: PKR 25,000/month."
+  },
+  {
+    "bank_name": "JS Bank",
+    "policy_type": "documentation",
+    "text": "JS Bank required documents for loan application: CNIC, salary slip, bank statement 3 months. Special conditions: Quick approval for salaried individuals. Online application available. No prepayment penalty after 12 months.."
+  },
+  {
+    "bank_name": "JS Bank",
+    "policy_type": "products",
+    "text": "JS Bank loan products: personal, car, home. Interest rates: 13.5% - 19.5%. Loan amounts from PKR 10,000 up to PKR 2,500,000. Repayment tenure up to 48 months. Special conditions: Quick approval for salaried individuals. Online application available. No prepayment penalty after 12 months.."
+  },
+  {
+    "bank_name": "Silk Bank",
+    "policy_type": "overview",
+    "text": "Silk Bank Limited (Silk Bank) offers personal, car loans. Minimum monthly income required: PKR 20,000. Minimum credit score: 580. Maximum loan amount: PKR 1,500,000. Interest rate range: 15% - 22%. Maximum tenure: 36 months. Processing fee: 2.5% of loan amount."
+  },
+  {
+    "bank_name": "Silk Bank",
+    "policy_type": "eligibility",
+    "text": "Silk Bank eligibility criteria: Accepted employment types: Salaried. Minimum employment duration: 3 months. Maximum debt-to-income ratio allowed: 35%. Guarantor: Required. Insurance: Not required. Credit score threshold: 580. Income threshold: PKR 20,000/month."
+  },
+  {
+    "bank_name": "Silk Bank",
+    "policy_type": "documentation",
+    "text": "Silk Bank required documents for loan application: CNIC, salary slip, bank statement 3 months, utility bill. Special conditions: Accessible to lower-income bracket. Higher rates compensate for lower credit thresholds. Quick disbursement within 5 days.."
+  },
+  {
+    "bank_name": "Silk Bank",
+    "policy_type": "products",
+    "text": "Silk Bank loan products: personal, car. Interest rates: 15% - 22%. Loan amounts from PKR 10,000 up to PKR 1,500,000. Repayment tenure up to 36 months. Special conditions: Accessible to lower-income bracket. Higher rates compensate for lower credit thresholds. Quick disbursement within 5 days.."
+  },
+  {
+    "bank_name": "Summit Bank",
+    "policy_type": "overview",
+    "text": "Summit Bank Limited (Summit Bank) offers personal, car, home loans. Minimum monthly income required: PKR 22,000. Minimum credit score: 600. Maximum loan amount: PKR 2,000,000. Interest rate range: 14% - 20%. Maximum tenure: 48 months. Processing fee: 2% of loan amount."
+  },
+  {
+    "bank_name": "Summit Bank",
+    "policy_type": "eligibility",
+    "text": "Summit Bank eligibility criteria: Accepted employment types: Salaried, Self-Employed. Minimum employment duration: 6 months. Maximum debt-to-income ratio allowed: 40%. Guarantor: Required. Insurance: Not required. Credit score threshold: 600. Income threshold: PKR 22,000/month."
+  },
+  {
+    "bank_name": "Summit Bank",
+    "policy_type": "documentation",
+    "text": "Summit Bank required documents for loan application: CNIC, salary slip, bank statement 3 months. Special conditions: Targets lower-middle income segment. Vehicle financing for new cars only. No prepayment allowed in first 6 months.."
+  },
+  {
+    "bank_name": "Summit Bank",
+    "policy_type": "products",
+    "text": "Summit Bank loan products: personal, car, home. Interest rates: 14% - 20%. Loan amounts from PKR 10,000 up to PKR 2,000,000. Repayment tenure up to 48 months. Special conditions: Targets lower-middle income segment. Vehicle financing for new cars only. No prepayment allowed in first 6 months.."
+  },
+  {
+    "bank_name": "SAMBA Bank",
+    "policy_type": "overview",
+    "text": "Samba Bank Limited (SAMBA Bank) offers personal, home, car loans. Minimum monthly income required: PKR 45,000. Minimum credit score: 680. Maximum loan amount: PKR 4,000,000. Interest rate range: 11.5% - 16.5%. Maximum tenure: 60 months. Processing fee: 1% of loan amount."
+  },
+  {
+    "bank_name": "SAMBA Bank",
+    "policy_type": "eligibility",
+    "text": "SAMBA Bank eligibility criteria: Accepted employment types: Salaried. Minimum employment duration: 24 months. Maximum debt-to-income ratio allowed: 45%. Guarantor: Not required. Insurance: Required. Credit score threshold: 680. Income threshold: PKR 45,000/month."
+  },
+  {
+    "bank_name": "SAMBA Bank",
+    "policy_type": "documentation",
+    "text": "SAMBA Bank required documents for loan application: CNIC, salary slip, bank statement 6 months, employment letter, NTN. Special conditions: Premium banking clientele. Relationship manager assigned for loans above PKR 2M. Flexible repayment options.."
+  },
+  {
+    "bank_name": "SAMBA Bank",
+    "policy_type": "products",
+    "text": "SAMBA Bank loan products: personal, home, car. Interest rates: 11.5% - 16.5%. Loan amounts from PKR 10,000 up to PKR 4,000,000. Repayment tenure up to 60 months. Special conditions: Premium banking clientele. Relationship manager assigned for loans above PKR 2M. Flexible repayment options.."
+  },
+  {
+    "bank_name": "NBP",
+    "policy_type": "overview",
+    "text": "National Bank of Pakistan (NBP) offers personal, home, car, agriculture, business, government loans. Minimum monthly income required: PKR 15,000. Minimum credit score: 550. Maximum loan amount: PKR 10,000,000. Interest rate range: 9% - 15%. Maximum tenure: 240 months. Processing fee: 0.5% of loan amount."
+  },
+  {
+    "bank_name": "NBP",
+    "policy_type": "eligibility",
+    "text": "NBP eligibility criteria: Accepted employment types: Salaried, Self-Employed, Business Owner, Government. Minimum employment duration: 6 months. Maximum debt-to-income ratio allowed: 55%. Guarantor: Not required. Insurance: Not required. Credit score threshold: 550. Income threshold: PKR 15,000/month."
+  },
+  {
+    "bank_name": "NBP",
+    "policy_type": "documentation",
+    "text": "NBP required documents for loan application: CNIC, salary slip, bank statement 3 months, government ID (if applicable). Special conditions: State-owned bank with lowest rates. Government employees get subsidized rates as low as 6%. Long tenure for housing up to 20 years.."
+  },
+  {
+    "bank_name": "NBP",
+    "policy_type": "products",
+    "text": "NBP loan products: personal, home, car, agriculture, business, government. Interest rates: 9% - 15%. Loan amounts from PKR 10,000 up to PKR 10,000,000. Repayment tenure up to 240 months. Special conditions: State-owned bank with lowest rates. Government employees get subsidized rates as low as 6%. Long tenure for housing up to 20 years.."
+  },
+  {
+    "bank_name": "BankIslami",
+    "policy_type": "overview",
+    "text": "BankIslami Pakistan Limited (BankIslami) offers home, car, business loans. Minimum monthly income required: PKR 35,000. Minimum credit score: 640. Maximum loan amount: PKR 6,000,000. Interest rate range: 10% - 15.5% (Islamic profit rate). Maximum tenure: 120 months. Processing fee: 0.9% of financing amount."
+  },
+  {
+    "bank_name": "BankIslami",
+    "policy_type": "eligibility",
+    "text": "BankIslami eligibility criteria: Accepted employment types: Salaried, Self-Employed, Business Owner. Minimum employment duration: 12 months. Maximum debt-to-income ratio allowed: 50%. Guarantor: Not required. Insurance: Required. Credit score threshold: 640. Income threshold: PKR 35,000/month."
+  },
+  {
+    "bank_name": "BankIslami",
+    "policy_type": "documentation",
+    "text": "BankIslami required documents for loan application: CNIC, salary slip, bank statement 6 months, employment letter. Special conditions: Shariah-compliant financing only. Al-Murabaha for car and goods. Diminishing Musharakah for home. No late payment interest.."
+  },
+  {
+    "bank_name": "BankIslami",
+    "policy_type": "products",
+    "text": "BankIslami loan products: home, car, business. Interest rates: 10% - 15.5% (Islamic profit rate). Loan amounts from PKR 10,000 up to PKR 6,000,000. Repayment tenure up to 120 months. Special conditions: Shariah-compliant financing only. Al-Murabaha for car and goods. Diminishing Musharakah for home. No late payment interest.."
+  },
+  {
+    "bank_name": "Dubai Islamic Bank",
+    "policy_type": "overview",
+    "text": "Dubai Islamic Bank Pakistan Limited (Dubai Islamic Bank) offers home, car, business loans. Minimum monthly income required: PKR 40,000. Minimum credit score: 660. Maximum loan amount: PKR 7,000,000. Interest rate range: 10.5% - 15% (Islamic profit rate). Maximum tenure: 120 months. Processing fee: 1% of financing amount."
+  },
+  {
+    "bank_name": "Dubai Islamic Bank",
+    "policy_type": "eligibility",
+    "text": "Dubai Islamic Bank eligibility criteria: Accepted employment types: Salaried, Self-Employed. Minimum employment duration: 12 months. Maximum debt-to-income ratio allowed: 50%. Guarantor: Not required. Insurance: Required. Credit score threshold: 660. Income threshold: PKR 40,000/month."
+  },
+  {
+    "bank_name": "Dubai Islamic Bank",
+    "policy_type": "documentation",
+    "text": "Dubai Islamic Bank required documents for loan application: CNIC, salary slip, bank statement 6 months, employment letter, NTN. Special conditions: International Islamic banking standards. Musawamah for car financing. Home ijarah product available. No prepayment penalty.."
+  },
+  {
+    "bank_name": "Dubai Islamic Bank",
+    "policy_type": "products",
+    "text": "Dubai Islamic Bank loan products: home, car, business. Interest rates: 10.5% - 15% (Islamic profit rate). Loan amounts from PKR 10,000 up to PKR 7,000,000. Repayment tenure up to 120 months. Special conditions: International Islamic banking standards. Musawamah for car financing. Home ijarah product available. No prepayment penalty.."
+  },
+  {
+    "bank_name": "Askari Bank",
+    "policy_type": "overview",
+    "text": "Askari Bank Limited (Askari Bank) offers personal, home, car, business loans. Minimum monthly income required: PKR 30,000. Minimum credit score: 630. Maximum loan amount: PKR 4,000,000. Interest rate range: 12% - 17.5%. Maximum tenure: 60 months. Processing fee: 1.1% of loan amount."
+  },
+  {
+    "bank_name": "Askari Bank",
+    "policy_type": "eligibility",
+    "text": "Askari Bank eligibility criteria: Accepted employment types: Salaried, Self-Employed, Military. Minimum employment duration: 12 months. Maximum debt-to-income ratio allowed: 45%. Guarantor: Not required. Insurance: Required. Credit score threshold: 630. Income threshold: PKR 30,000/month."
+  },
+  {
+    "bank_name": "Askari Bank",
+    "policy_type": "documentation",
+    "text": "Askari Bank required documents for loan application: CNIC, salary slip, bank statement 6 months, employment letter. Special conditions: Army Personnel Financing Scheme (APFS) for military at preferential rates. Regular banking available to all.."
+  },
+  {
+    "bank_name": "Askari Bank",
+    "policy_type": "products",
+    "text": "Askari Bank loan products: personal, home, car, business. Interest rates: 12% - 17.5%. Loan amounts from PKR 10,000 up to PKR 4,000,000. Repayment tenure up to 60 months. Special conditions: Army Personnel Financing Scheme (APFS) for military at preferential rates. Regular banking available to all.."
+  },
+  {
+    "bank_name": "Habib Metropolitan",
+    "policy_type": "overview",
+    "text": "Habib Metropolitan Bank Limited (Habib Metropolitan) offers personal, home, car, business loans. Minimum monthly income required: PKR 35,000. Minimum credit score: 650. Maximum loan amount: PKR 5,000,000. Interest rate range: 11.5% - 17%. Maximum tenure: 84 months. Processing fee: 1% of loan amount."
+  },
+  {
+    "bank_name": "Habib Metropolitan",
+    "policy_type": "eligibility",
+    "text": "Habib Metropolitan eligibility criteria: Accepted employment types: Salaried, Self-Employed, Business Owner. Minimum employment duration: 12 months. Maximum debt-to-income ratio allowed: 48%. Guarantor: Not required. Insurance: Required. Credit score threshold: 650. Income threshold: PKR 35,000/month."
+  },
+  {
+    "bank_name": "Habib Metropolitan",
+    "policy_type": "documentation",
+    "text": "Habib Metropolitan required documents for loan application: CNIC, salary slip, bank statement 6 months, employment letter, utility bill. Special conditions: MetroHome and MetroCar products. Trade finance available for businesses. Swiss banking partnership for premium clients.."
+  },
+  {
+    "bank_name": "Habib Metropolitan",
+    "policy_type": "products",
+    "text": "Habib Metropolitan loan products: personal, home, car, business. Interest rates: 11.5% - 17%. Loan amounts from PKR 10,000 up to PKR 5,000,000. Repayment tenure up to 84 months. Special conditions: MetroHome and MetroCar products. Trade finance available for businesses. Swiss banking partnership for premium clients.."
+  },
+  {
+    "bank_name": "Soneri Bank",
+    "policy_type": "overview",
+    "text": "Soneri Bank Limited (Soneri Bank) offers personal, car, home, SME loans. Minimum monthly income required: PKR 25,000. Minimum credit score: 620. Maximum loan amount: PKR 3,000,000. Interest rate range: 13% - 18.5%. Maximum tenure: 60 months. Processing fee: 1.5% of loan amount."
+  },
+  {
+    "bank_name": "Soneri Bank",
+    "policy_type": "eligibility",
+    "text": "Soneri Bank eligibility criteria: Accepted employment types: Salaried, Self-Employed, SME Owner. Minimum employment duration: 6 months. Maximum debt-to-income ratio allowed: 42%. Guarantor: Not required. Insurance: Not required. Credit score threshold: 620. Income threshold: PKR 25,000/month."
+  },
+  {
+    "bank_name": "Soneri Bank",
+    "policy_type": "documentation",
+    "text": "Soneri Bank required documents for loan application: CNIC, salary slip, bank statement 3 months, employment letter. Special conditions: Strong SME focus. Rozgar loan for self-employed individuals. Fast track approval in 72 hours.."
+  },
+  {
+    "bank_name": "Soneri Bank",
+    "policy_type": "products",
+    "text": "Soneri Bank loan products: personal, car, home, SME. Interest rates: 13% - 18.5%. Loan amounts from PKR 10,000 up to PKR 3,000,000. Repayment tenure up to 60 months. Special conditions: Strong SME focus. Rozgar loan for self-employed individuals. Fast track approval in 72 hours.."
+  },
+  {
+    "bank_name": "Bank of Punjab",
+    "policy_type": "overview",
+    "text": "The Bank of Punjab (Bank of Punjab) offers personal, home, car, agriculture, business loans. Minimum monthly income required: PKR 20,000. Minimum credit score: 600. Maximum loan amount: PKR 5,000,000. Interest rate range: 10% - 16%. Maximum tenure: 120 months. Processing fee: 0.75% of loan amount."
+  },
+  {
+    "bank_name": "Bank of Punjab",
+    "policy_type": "eligibility",
+    "text": "Bank of Punjab eligibility criteria: Accepted employment types: Salaried, Self-Employed, Business Owner, Farmer. Minimum employment duration: 6 months. Maximum debt-to-income ratio allowed: 50%. Guarantor: Not required. Insurance: Not required. Credit score threshold: 600. Income threshold: PKR 20,000/month."
+  },
+  {
+    "bank_name": "Bank of Punjab",
+    "policy_type": "documentation",
+    "text": "Bank of Punjab required documents for loan application: CNIC, salary slip, bank statement 6 months. Special conditions: Provincial government bank with subsidized products for Punjab residents. Kissan Dost agriculture scheme. Low rates for government employees.."
+  },
+  {
+    "bank_name": "Bank of Punjab",
+    "policy_type": "products",
+    "text": "Bank of Punjab loan products: personal, home, car, agriculture, business. Interest rates: 10% - 16%. Loan amounts from PKR 10,000 up to PKR 5,000,000. Repayment tenure up to 120 months. Special conditions: Provincial government bank with subsidized products for Punjab residents. Kissan Dost agriculture scheme. Low rates for government employees.."
+  },
+  {
+    "bank_name": "Zarai Taraqiati Bank",
+    "policy_type": "overview",
+    "text": "Zarai Taraqiati Bank Limited (ZTBL) (Zarai Taraqiati Bank) offers agriculture, rural business, livestock loans. Minimum monthly income required: PKR 10,000. Minimum credit score: 500. Maximum loan amount: PKR 2,000,000. Interest rate range: 7% - 12% (subsidized). Maximum tenure: 60 months. Processing fee: 0.5% of loan amount."
+  },
+  {
+    "bank_name": "Zarai Taraqiati Bank",
+    "policy_type": "eligibility",
+    "text": "Zarai Taraqiati Bank eligibility criteria: Accepted employment types: Farmer, Rural Business. Minimum employment duration: 0 months. Maximum debt-to-income ratio allowed: 60%. Guarantor: Required. Insurance: Not required. Credit score threshold: 500. Income threshold: PKR 10,000/month."
+  },
+  {
+    "bank_name": "Zarai Taraqiati Bank",
+    "policy_type": "documentation",
+    "text": "Zarai Taraqiati Bank required documents for loan application: CNIC, land ownership documents, agricultural produce records. Special conditions: Agriculture-focused government bank. Kisan Package available with government subsidy. No urban personal loans. Seasonal repayment schedules.."
+  },
+  {
+    "bank_name": "Zarai Taraqiati Bank",
+    "policy_type": "products",
+    "text": "Zarai Taraqiati Bank loan products: agriculture, rural business, livestock. Interest rates: 7% - 12% (subsidized). Loan amounts from PKR 10,000 up to PKR 2,000,000. Repayment tenure up to 60 months. Special conditions: Agriculture-focused government bank. Kisan Package available with government subsidy. No urban personal loans. Seasonal repayment schedules.."
+  }
+]

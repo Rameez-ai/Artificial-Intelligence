@@ -1,0 +1,14 @@
+{
+  "model_name": "GradientBoosting",
+  "accuracy": 0.915,
+  "precision": 0.9264,
+  "recall": 0.9397,
+  "f1_score": 0.933,
+  "roc_auc": 0.9761,
+  "average_precision": 0.9854,
+  "test_samples": 1000,
+  "true_positives": 592,
+  "true_negatives": 323,
+  "false_positives": 47,
+  "false_negatives": 38
+}

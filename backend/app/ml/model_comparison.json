@@ -1,0 +1,41 @@
+{
+  "selected_model": "GradientBoosting",
+  "comparison": {
+    "RandomForest": {
+      "accuracy": 0.914,
+      "precision": 0.9211,
+      "recall": 0.9444,
+      "f1_score": 0.9326,
+      "roc_auc": 0.9701,
+      "cv_mean": 0.9102,
+      "cv_std": 0.0067,
+      "best_params": {
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 200
+      }
+    },
+    "GradientBoosting": {
+      "accuracy": 0.915,
+      "precision": 0.9264,
+      "recall": 0.9397,
+      "f1_score": 0.933,
+      "roc_auc": 0.9761,
+      "cv_mean": 0.918,
+      "cv_std": 0.0053,
+      "best_params": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_samples_split": 5,
+        "n_estimators": 200,
+        "subsample": 0.8
+      }
+    }
+  },
+  "training_date": "2026-05-09T17:45:23.012189",
+  "dataset": "C:\\Users\\ramiz\\Smart Loan AI\\backend\\app\\ml\\..\\..\\..\\eda\\data\\raw\\loan_dataset.csv",
+  "train_size": 4000,
+  "test_size": 1000,
+  "n_features": 25
+}
