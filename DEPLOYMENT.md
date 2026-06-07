@@ -3,14 +3,14 @@
 This guide provides a step-by-step process for deploying the SmartLoan AI web platform completely **for free**.
 
 The application consists of two main components:
-1. **FastAPI Backend (Python)**: Hosted on **Render** (Free Web Service tier).
+1. **FastAPI Backend (Python)**: Hosted on **Hugging Face Spaces** (Free Docker Space tier).
 2. **React Frontend (Vite)**: Hosted on **Vercel** (Free Hobby plan).
 
 ---
 
 ## Prerequisites
 1. A **GitHub Account** containing your repository: `https://github.com/Rameez-ai/Artificial-Intelligence`.
-2. A **Render Account** (register for free at [render.com](https://render.com)).
+2. A **Hugging Face Account** (register for free at [huggingface.co](https://huggingface.co)).
 3. A **Vercel Account** (register for free at [vercel.com](https://vercel.com)).
 4. Access to your **Firebase Project Console** (to retrieve credentials).
 5. A **Gemini API Key** (optional, for the AI Chatbot feature).
@@ -26,46 +26,53 @@ Because the FastAPI backend runs on a remote server, it needs to access Firebase
 4. Click **Generate new private key** -> **Generate key**.
 5. Save the generated `.json` file to your computer.
 6. Open this JSON file in any text editor, select everything, and copy it to your clipboard.
-7. Remove any line breaks/spaces if possible, or keep the raw copy to paste into Render (Render supports multi-line environment variables).
+7. Remove any line breaks/spaces if possible, or keep the raw copy to paste into Hugging Face Secrets.
 
 ---
 
-## Phase 2: Deploy the FastAPI Backend to Render (100% Free)
-Render is a cloud hosting platform that offers a free tier for web services.
+## Phase 2: Deploy the FastAPI Backend to Hugging Face Spaces (100% Free & No Card Required)
+Hugging Face Spaces allows you to host Docker containers for free without requiring any credit card or payment verification.
 
-### 1. Create a New Web Service
-1. Log in to your [Render Dashboard](https://dashboard.render.com).
-2. Click **New +** -> **Web Service**.
-3. Select **Build and deploy from a Git repository**.
-4. Connect your GitHub account and select your repository: `Artificial-Intelligence`.
+### 1. Create a Hugging Face Account
+1. Go to [Hugging Face](https://huggingface.co/) and sign up for a free account.
+2. Verify your email address.
 
-### 2. Configure the Service
-Set the following options on the configuration page:
-- **Name**: `smart-loan-ai-backend` (or any custom name)
-- **Region**: Select the closest region to your target users (e.g., `Singapore` or `Oregon`)
-- **Branch**: `main`
-- **Root Directory**: `backend` *(Crucial: This tells Render to compile inside the backend directory)*
-- **Runtime**: `Python 3`
-- **Build Command**: `pip install -r requirements.txt`
-- **Start Command**: `python -m uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-- **Instance Type**: **Free** ($0/month)
+### 2. Create a New Space
+1. Log in and click on your profile picture in the top-right corner, then select **New Space**.
+2. Configure your Space:
+   - **Space Name**: `smart-loan-ai-backend` (or any custom name)
+   - **License**: `mit`
+   - **Select the Space SDK**: **Docker**
+   - **Docker Template**: **Blank**
+   - **Space Hardware**: **Cpu basic • 2 vCPU • 16 GB • Free**
+   - **Visibility**: **Public** (required so your React frontend can access the API)
+3. Click **Create Space**.
 
-### 3. Add Environment Variables
-Click **Advanced** -> **Add Environment Variable** and add the following keys:
+### 3. Add Environment Variables (Secrets)
+Before pushing the code, configure your secrets so they are ready:
+1. Inside your Space, click the **Settings** tab.
+2. Scroll down to the **Variables and Secrets** section.
+3. Click **New secret** to add the following variables:
+   - **Name**: `FIREBASE_PROJECT_ID` | **Value**: `smart-loan-ai-ed653`
+   - **Name**: `FIREBASE_CREDENTIALS_JSON` | **Value**: *(Paste the entire text contents of your Firebase serviceAccountKey.json)*
+   - **Name**: `JWT_SECRET_KEY` | **Value**: `OosAZbut30XjP7jVZeUmeI2jklxmUxBcryr3DYHK47G`
+   - **Name**: `GEMINI_API_KEY` | **Value**: *(Your Gemini API key)*
+   - **Name**: `DEBUG` | **Value**: `false`
 
-| Key | Value | Description |
-|---|---|---|
-| `JWT_SECRET_KEY` | *Generates a random secret string* (e.g., `OosAZbut30XjP7jVZeUmeI2jklxmUxBcryr3DYHK47G`) | Used to secure JWT tokens |
-| `FIREBASE_PROJECT_ID` | `smart-loan-ai-ed653` | Your Firebase project identifier |
-| `FIREBASE_CREDENTIALS_JSON` | *Paste the entire content of the Firebase service account JSON file you copied in Phase 1* | Securely authenticates with Firestore |
-| `GEMINI_API_KEY` | *Your Google AI Studio Gemini API Key* | Required for AI chatbot answers |
-| `DEBUG` | `false` | Sets production mode |
-
-### 4. Deploy
-1. Click **Create Web Service**.
-2. Render will build and deploy your service.
-3. Once the build finishes and shows `Live`, copy the URL of your backend (e.g., `https://smart-loan-ai-backend.onrender.com`).
-4. **Note on Render Free Tier**: Free services spin down after 15 minutes of inactivity. When a new request arrives, Render will spin it back up, which may cause a 30-50 second delay on the first load ("cold start").
+### 4. Deploy your Code to the Space
+Since Hugging Face spaces use their own Git remote, you can sync your existing repository easily:
+1. Open terminal on your computer in the root directory of your project (`Smart Loan AI`).
+2. Add the Hugging Face space repository as a Git remote (copy the exact git command from the Space landing page, under "Use via Git"):
+   ```bash
+   git remote add hf https://huggingface.co/spaces/YOUR_USERNAME/smart-loan-ai-backend
+   ```
+3. Push your backend code to Hugging Face:
+   ```bash
+   git push hf main --force
+   ```
+4. Hugging Face will automatically read the `backend/Dockerfile` (which has been configured to expose port `7860`) and build/run your FastAPI application.
+5. Once the build status changes from `Building` to `Running`, your API is live!
+6. Copy the URL of your Space app (click **Embed this Space** under the three dots menu at the top-right, and copy the direct link URL. It should look like: `https://YOUR_USERNAME-smart-loan-ai-backend.hf.space`). This is your backend API URL.
 
 ---
 
@@ -90,7 +97,7 @@ Toggle the **Environment Variables** section and add:
 
 | Key | Value | Description |
 |---|---|---|
-| `VITE_API_BASE_URL` | *Paste your Render backend URL copied in Phase 2* (e.g., `https://smart-loan-ai-backend.onrender.com`) | Connects React frontend to FastAPI backend |
+| `VITE_API_BASE_URL` | *Paste your Hugging Face Space URL copied in Phase 2* (e.g., `https://username-smart-loan-ai-backend.hf.space`) | Connects React frontend to FastAPI backend |
 | `VITE_FIREBASE_API_KEY` | `AIzaSyDSaXm-yjR4ZxYNcDCl-h2oywL4f25T32g` | Firebase web API key |
 | `VITE_FIREBASE_AUTH_DOMAIN` | `smart-loan-ai-ed653.firebaseapp.com` | Firebase authentication domain |
 | `VITE_FIREBASE_PROJECT_ID` | `smart-loan-ai-ed653` | Firebase project ID |
@@ -106,14 +113,15 @@ Toggle the **Environment Variables** section and add:
 
 ---
 
-## Phase 4: Configure CORS on Render
-To allow your frontend on Vercel to securely call your Render backend API, configure CORS on the backend.
+## Phase 4: Configure CORS on Hugging Face
+To allow your frontend on Vercel to securely call your Hugging Face API, configure CORS on the backend by setting the CORS_ORIGINS secret.
 
-1. Go back to your **Render Dashboard** and select your `smart-loan-ai-backend` web service.
-2. Go to **Environment Variables** and add the following variable:
-   - **Key**: `CORS_ORIGINS`
+1. Go back to your **Hugging Face Space** -> **Settings** tab.
+2. Scroll to the **Variables and Secrets** section.
+3. Click **New secret**:
+   - **Name**: `CORS_ORIGINS`
    - **Value**: `["https://your-vercel-deployment-url.vercel.app"]` (Replace with your actual Vercel URL, and keep the array format with square brackets and quotes).
-3. Save changes. Render will automatically redeploy the service with updated CORS origins.
+4. Save the secret. Hugging Face will automatically restart the space with the updated CORS configuration.
 
 ---
 
