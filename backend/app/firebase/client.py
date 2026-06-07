@@ -20,8 +20,20 @@ def initialize_firebase():
         return _db
 
     cred_path = os.path.join(os.path.dirname(__file__), '..', 'firebase', 'serviceAccountKey.json')
+    firebase_json = os.environ.get("FIREBASE_CREDENTIALS_JSON")
 
-    if os.path.exists(cred_path):
+    if firebase_json:
+        try:
+            import json
+            cred_dict = json.loads(firebase_json)
+            cred = credentials.Certificate(cred_dict)
+            firebase_admin.initialize_app(cred)
+            print("Firebase initialized using FIREBASE_CREDENTIALS_JSON env var")
+        except Exception as e:
+            print(f"Error initializing Firebase from env var: {e}")
+            _initialized = True
+            return None
+    elif os.path.exists(cred_path):
         cred = credentials.Certificate(cred_path)
         firebase_admin.initialize_app(cred)
     else:
